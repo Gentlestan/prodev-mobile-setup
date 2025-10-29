@@ -1,12 +1,17 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, ImageBackground, Dimensions} from "react-native";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <View
+    <SafeAreaProvider>
+      <SafeAreaView style={{ flex: 1 }}>
+         <View
       style={styles.container}
     >
       <Text>Entry Screen - Awesome.</Text>
     </View>
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
