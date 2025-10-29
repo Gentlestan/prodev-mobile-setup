@@ -68,6 +68,6 @@ After completing these steps, you should be able to:
 
 ---
 
-**Author:** [Your Name]
-**Date:** [YYYY-MM-DD]
+**Author:** Ohazulike Stanley
+**Date:** [2025-10-27]
 **Project:** Expo Go Setup Task
